@@ -1,0 +1,38 @@
+.holder {
+    max-width: 350px;
+    min-width: 280px;
+}
+
+.dieta_holder {
+    position: relative;
+    margin: 50px 0 50px 0;
+    max-width: 500px;
+}
+
+.dieta_holder p {
+    position: relative;
+    left: 0;
+    top: 50%;
+    font-size: 1.5em;
+}
+
+.dieta_holder_icons {
+    position: absolute;
+    right: 10px;
+    top: 0;
+}
+
+form .txt_field {
+    width: 50%;
+    max-width: 150px;
+}
+
+.plus_icon {
+    position: absolute;
+    right: 60px;
+    top: 0;
+}
+
+.iconify {
+    font-size: 1.5rem;
+}
