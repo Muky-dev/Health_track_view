@@ -1,0 +1,31 @@
+* {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+}
+
+header {
+    width: 100%;
+}
+
+.container-fluid {
+    width: 100vw;
+    height: 100vh;
+}
+
+.menu_items {
+    position: relative;
+    top: 50%;
+    transform: translateY(-80%);
+}
+
+.menu_items a {
+    font-size: 130%;
+    padding: 5px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.iconify {
+    font-size: 2rem;
+}
