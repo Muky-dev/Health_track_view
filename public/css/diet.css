@@ -1,0 +1,18 @@
+.arrow {
+    position: absolute;
+    left: 0;
+}
+
+.title_text {
+    font-size: 24;
+    font-weight: lighter;
+    color: #ACACAC;
+}
+
+.col_identifier {
+    color: #ACACAC;
+}
+
+.divider {
+    border: #A0A0A0;
+}
