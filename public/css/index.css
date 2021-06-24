@@ -1,0 +1,60 @@
+* {
+    font-family: Roboto, sans-serif;
+    color: #FFFFFF;
+}
+
+.d-block {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.bg-dark {
+    background-color: #303030;
+    background: #303030;
+}
+
+.iconify {
+    margin: 10px;
+    color: #FFFFFF;
+    font-size: 1rem;
+}
+
+.feed_container {
+    height: auto;
+    width: 100%;
+}
+
+.post_container {
+    position: relative;
+    height: auto;
+    width: 80%;
+    border: 2px solid #383838;
+    border-radius: 10px;
+}
+
+.post_user_img {
+    max-width: 32px;
+    max-height: 32px;
+    object-fit: cover;
+}
+
+.post_img {
+    height: 60%;
+    width: 100%;
+}
+
+.divider {
+    max-width: 100%;
+    margin: 0;
+}
+
+.comment_holder {
+    font-style: italic;
+    font-size: 12px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../public/css/index.css">
+    <title>Health Track</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-dark bg-dark">
+            <div class="container-fluid">
+                <span class="iconify navbar-brand" data-icon="bytesize:menu" style="font-size: 30px;"
+                    data-inline="false"></span>
+                <div class="text-center">
+                    <h2>Health Track</h2>
+                </div>
+                <div class="dropdown text-start nav-item">
+                    <a href="#" class="d-block" id="dropdownUser1" data-bs-toggle="dropdown" aria-expanded="false">
+                        <span class="iconify" data-icon="carbon:user-avatar-filled-alt" style="font-size: 30px;"
+                            data-inline="false"></span>
+                    </a>
+                    <ul class="dropdown-menu dropdown-menu-start text-small" style="right: 0; left: auto;"
+                        aria-labelledby="dropdownUser1" style="">
+                        <li><a class="dropdown-item" href="#">Profile</a></li>
+                        <li><a class="dropdown-item" href="#">Settings</a></li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+                        <li><a class="dropdown-item" href="#">Sign out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div class="container-fluid bg-dark feed_container">
+
+        <!-- FIRST POST -->
+        <div class="container-fluid bg-dark post_container">
+            <!-- USER IDENTIFIER -->
+            <div class="user_identifier mt-2">
+                <p><img class="rounded-circle post_user_img"
+                        src="https://www.active.com/Assets/fitness/exercise-myths.jpg"> Kelly</p>
+            </div>
+            <!-- IMG SECTION -->
+            <div class="post_img">
+                <img
+                    src="https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+            </div>
+            <!-- BUTTONS -->
+            <div class="buttons">
+                <span class="iconify" data-icon="mdi:arm-flex-outline" data-inline="false"></span>
+                <span class="iconify" data-icon="fa-regular:comment-dots" data-inline="false"></span>
+                <span class="iconify" data-icon="bx:bxs-paper-plane" data-inline="false"></span>
+            </div>
+            <!-- POST DESCRIPTION -->
+            <div class="post_description mt-1">
+                <p>Treino puxado hoje :)</p>
+            </div>
+            <!-- POST COMMENT SECTION -->
+            <p class="comment_holder">Comentários</p>
+            <div class="border-top my-3 divider"></div>
+            <div class="comments"></div>
+        </div>
+
+        <!-- SECOND POST -->
+        <div class="container-fluid bg-dark post_container mt-4">
+            <!-- USER IDENTIFIER -->
+            <div class="user_identifier mt-2">
+
+                <p><img class="rounded-circle" width="32" height="32"
+                        src="https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/toneupin15-larysa-3917-1546549210.jpg?crop=1.00xw:1.00xh;0,0&resize=480:*">
+                    Jenifer</p>
+            </div>
+            <div class="post_img">
+                <img
+                    src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80">
+            </div>
+            <div class="buttons">
+                <span class="iconify" data-icon="mdi:arm-flex-outline" data-inline="false"></span>
+                <span class="iconify" data-icon="fa-regular:comment-dots" data-inline="false"></span>
+                <span class="iconify" data-icon="bx:bxs-paper-plane" data-inline="false"></span>
+            </div>
+            <!-- POST DESCRIPTION -->
+            <div class="post_description mt-1">
+                <p>Foco</p>
+            </div>
+            <!-- POST COMMENT SECTION -->
+            <p class="comment_holder">Comentários</p>
+            <div class="border-top my-3 divider"></div>
+            <div class="comments"></div>
+        </div>
+
+        <!-- THIRD POST -->
+        <div class="container-fluid bg-dark post_container mt-4">
+            <!-- USER IDENTIFIER -->
+            <div class="user_identifier mt-2">
+                <p><img class="rounded-circle" width="32" height="32"
+                        src="https://exerciseright.com.au/wp-content/uploads/2019/08/womens-health3.jpg"> Aline</p>
+            </div>
+            <div class="post_img">
+                <img
+                    src="https://images.unsplash.com/photo-1487956382158-bb926046304a?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1351&q=80">
+            </div>
+            <div class="buttons">
+                <span class="iconify" data-icon="mdi:arm-flex-outline" data-inline="false"></span>
+                <span class="iconify" data-icon="fa-regular:comment-dots" data-inline="false"></span>
+                <span class="iconify" data-icon="bx:bxs-paper-plane" data-inline="false"></span>
+            </div>
+            <!-- POST DESCRIPTION -->
+            <div class="post_description mt-1">
+                <p>Mais um dia</p>
+            </div>
+            <!-- POST COMMENT SECTION -->
+            <p class="comment_holder">Comentários</p>
+            <div class="border-top my-3 divider"></div>
+            <div class="comments"></div>
+        </div>
+    </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+    crossorigin="anonymous"></script>
+<script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
+
+</html>
